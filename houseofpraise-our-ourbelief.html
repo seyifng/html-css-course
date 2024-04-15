@@ -14,9 +14,8 @@
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
     <link rel="stylesheet" href="styles/header-nav.css">
-    <link rel="stylesheet" href="styles/body.css">
     <link rel="stylesheet" href="styles/body2.css">
-    <link rel="stylesheet" href="styles/end-section.css">
+    <link rel="stylesheet" href="styles/footer.css">
   </head>
 
   <body>
@@ -32,8 +31,8 @@
       <nav class="navbar">
         <a href="houseofpraise.html" style="--i:0;">Home</a>
         <a href="houseofpraise-our-ourbelief.html" style="--i:1;" class="active">About Us</a>
-        <a href="#" style="--i:2;">Events</a>
-        <a href="#" style="--i:3;">Giving</a>
+        <a href="houseofpraise-events.html" style="--i:2;">Events</a>
+        <a href="https://buy.stripe.com/8wM6qTb5AeYM1tS5kk" target=”_blank” style="--i:3;">Giving</a>
         <a href="houseofpraise-connect.html" style="--i:4;">Connect</a>
       </nav>
       <script>
@@ -101,9 +100,9 @@
       </div>
     </div>
 
-    <div class="bby">
+    <div class="bby" id="timeline">
       <div>
-        <p class="fd-title">FELLOWSHIPS <br> & DEPARTMENTS</p>
+        <p class="fd-title">FELLOWSHIPS <br>& DEPARTMENTS</p>
       </div>
       <div class = "wrapper">
         <i id="left" class='bx bx-chevron-left' ></i>
@@ -112,50 +111,88 @@
             <div class="img"><img class="mens-img" src="logo/mens.JPG" draggable="false"></div>
             <div class="wwwww">
               <p class="mf-title">MEN'S FELLOWSHIP</p>
-              <p class="mf-descript">The aim is to equip men to be spiritual 
-                leaders in their home, the church and throughout their 
-                communities. The ultimate objective is to “present 
-                every man perfect in Christ Jesus” (Col 1:28).</p>
+              <p class="mf-descript">Gathered under the sheltering branches of brotherhood, 
+                men of faith come together to share their burdens, joys, and to uplift one 
+                another. They forge bonds strengthened by the wisdom of scriptures, 
+                standing as pillars of strength in their families and communities. <br>
+                "Iron sharpens iron, and one man sharpens another." - Proverbs 27:17
+              </p>
             </div>
           </li>
           <li class="card">
             <div class="img"><img class="womens-img" src="logo/womens.jpg" draggable="false"></div>
             <div class="wwwww">
               <p class="mf-title">WOMEN'S FELLOWSHIP</p>
-              <p class="mf-descript">The aim is to equip men to be spiritual 
-                leaders in their home, the church and throughout their 
-                communities. The ultimate objective is to “present 
-                every man perfect in Christ Jesus” (Col 1:28).</p>
+              <p class="mf-descript">In the sacred circle of sisterhood, women unite in love and 
+                support, nurturing one another's spirits and fostering growth in faith. They 
+                find solace in shared experiences, weaving threads of compassion and 
+                understanding through the fabric of their lives. <br>
+                "She is clothed with strength and dignity, and she laughs without fear of the future." 
+                - Proverbs 31:25
+              </p>
             </div>
           </li>
           <li class="card">
             <div class="img"><img class="youths-img" src="logo/youths.JPG" draggable="false"></div>
             <div class="wwwww">
               <p class="mf-title">YOUTH'S FELLOWSHIP</p>
-              <p class="mf-descript">The aim is to equip men to be spiritual 
-                leaders in their home, the church and throughout their 
-                communities. The ultimate objective is to “present 
-                every man perfect in Christ Jesus” (Col 1:28).</p>
+              <p class="mf-descript">Amidst the boundless energy and enthusiasm of youth, young 
+                hearts come together to seek guidance, wisdom, and inspiration. In their 
+                fellowship, they discover their purpose, ignite their passions, and embark 
+                on the journey of faith with courage and conviction. <br> 
+                - 1 Timothy 4:12
+              </p>
             </div>
           </li>
           <li class="card">
             <div class="img"><img class="children-img" src="logo/children.JPG" draggable="false"></div>
             <div class="wwwww">
-              <p class="mf-title">CHILDREN'S FELLOWSHIP</p>
-              <p class="mf-descript">The aim is to equip men to be spiritual 
-                leaders in their home, the church and throughout their 
-                communities. The ultimate objective is to “present 
-                every man perfect in Christ Jesus” (Col 1:28).</p>
+              <p class="mf-title">CHILDREN'S DEPARTMENT</p>
+              <p class="mf-descript">In the innocence of childhood, young hearts are nurtured 
+                and guided along the path of faith, discovering the wonders of God's love 
+                through stories, play, and joyful exploration. In this sacred space, seeds 
+                of faith are planted, blossoming into a lifelong journey of spiritual 
+                growth.<br>
+                "Train up a child in the way he should go; even when he is old he will not 
+                depart from it." - Proverbs 22:6
+              </p>
             </div>
           </li>
           <li class="card">
             <div class="img"><img class="ministers-img" src="logo/ministers.JPG" draggable="false"></div>
             <div class="wwwww">
-              <p class="mf-title">MINISTERS DEPARTMENT</p>
-              <p class="mf-descript">The aim is to equip men to be spiritual 
-                leaders in their home, the church and throughout their 
-                communities. The ultimate objective is to “present 
-                every man perfect in Christ Jesus” (Col 1:28).</p>
+              <p class="mf-title">MINISTER'S DEPARTMENT</p>
+              <p class="mf-descript">Guided by the divine calling to serve, ministers
+                 devote themselves to shepherding souls, offering comfort to the 
+                 weary and hope to the lost. With humility and grace, they stand 
+                 as vessels of God's word, leading the flock towards spiritual 
+                 enlightenment and salvation.<br> - Jeremiah 3:15
+                </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img"><img class="ministers-img" src="logo/ministers.JPG" draggable="false"></div>
+            <div class="wwwww">
+              <p class="mf-title">USHERING DEPARTMENT</p>
+              <p class="mf-descript">With warmth and hospitality, ushers extend a welcoming 
+                hand to all who enter the sanctuary, ensuring that each soul feels 
+                embraced by the love of the community.<br>
+                "Let love be genuine. Abhor what is evil; hold fast to what is good.
+                Love one another with brotherly affection. Outdo one another in showing 
+                honor." - Romans 12:9-10
+                </p>
+            </div>
+          </li>
+          <li class="card">
+            <div class="img"><img class="ministers-img" src="logo/ministers.JPG" draggable="false"></div>
+            <div class="wwwww">
+              <p class="mf-title">CHOIR DEPARTMENT</p>
+              <p class="mf-descript">Voices lifted in harmony, the choir exalts the name of the Lord, 
+                weaving melodies of praise and worship that resonate through the halls of 
+                heaven. Through their songs, they stir hearts, uplift spirits, 
+                and invite the presence of the divine into every moment.<br>
+                "Sing to the Lord a new song; sing to the Lord, all the earth." - Psalm 96:1
+                </p>
             </div>
           </li>
         </ul>
@@ -249,7 +286,7 @@
 
     <div class="end-section">
       <div class="our-ministries">
-        <p class="min-header">KEY MINISTRIES</p>
+        <p class="min-header">MINISTRIES</p>
         <ul class="lm">
           <li>Men's Ministry</li>
           <li>Women's Ministry</li>
@@ -258,7 +295,7 @@
           <li>Prayer Ministry</li>
         </ul>
         <div class="min-container">
-          <a class="more-min-link" href="blank">
+          <a rel="noopener" class="more-min-link" href="houseofpraise-our-ourbelief.html#timeline">
             <span class="min-more-button">VIEW MINISTRIES</span>
           </a>
         </div>
@@ -273,7 +310,7 @@
           <li>Choir Department</li>
         </ul>
         <div class="dep-container">
-          <a class="more-dep-link" href="blank">
+          <a rel="noopener" class="more-dep-link" href="houseofpraise-our-ourbelief.html#timeline">
             <span class="dep-more-button">VIEW DEPARTMENTS</span>
           </a>
         </div>
@@ -298,11 +335,18 @@
                <span class="e-text">Email : hophampton@gmail.com</span>
             </li>
           </ul>
+          <ul class="socials">
+            <p class="follow-us">Follow Us</p>
+            <li><a href="#"><i class='bx bxl-youtube icon'></i></a></li>
+            <li><a href="#"><i class='bx bxl-instagram icon'></i></a></li>
+            <li><a href="#"><i class='bx bxl-facebook-square icon'></i></a></li>
+            <li><a href="#"><i class='bx bxl-twitter icon'></i></a></li>
+          </ul>
       </div>
     </div>
     
     <div class="copy-right">
-      <span>rccghouseofpraisehampton@org  © 2024. All Rights Reserved
+      <span>rccghouseofpraisehampton.org  © 2024. All Rights Reserved
       </span>
     </div>
   </body>

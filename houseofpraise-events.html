@@ -13,16 +13,17 @@
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
     <link rel="stylesheet" href="styles/header-nav.css">
-
+    <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/body.css">
-    <link rel="stylesheet" href="styles/body2.css">
-    <link rel="stylesheet" href="styles/body3.css">
+    <link rel="stylesheet" href="styles/body4.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link href="main.css" rel="stylesheet">
+    
   </head>
 
   <body>
     <div class="header">
-      <a href="houseofpraise.html" class="logo"><img class="rccg-logo" src="logo/rccg.png"></a>
+      <a href="#" class="logo"><img class="rccg-logo" src="logo/rccg.png"></a>
 
       <input type="checkbox" id="check">
       <label for="check" class="icons">
@@ -33,9 +34,9 @@
       <nav class="navbar">
         <a href="houseofpraise.html" style="--i:0;">Home</a>
         <a href="houseofpraise-our-ourbelief.html" style="--i:1;">About Us</a>
-        <a href="houseofpraise-events.html" style="--i:2;">Events</a>
+        <a href="houseofpraise-events.html" style="--i:2;" class="active">Events</a>
         <a href="https://buy.stripe.com/8wM6qTb5AeYM1tS5kk" target=”_blank” style="--i:3;">Giving</a>
-        <a href="houseofpraise-connect.html" style="--i:4;" class="active">Connect</a>
+        <a href="houseofpraise-connect.html" style="--i:4;">Connect</a>
       </nav>
       <script>
         function toggleDropdown(wrapper){
@@ -44,89 +45,18 @@
       </script>
     </div>
 
-    <div class="connect-part">
-      <div class="cu-info">
-        <p class="cu-t">Connect with Us</p>
-        <p class="cu-st">Reach Out To Us if You have Questions or Testimonies</p>
-        <div class="line-2"> 
-          <span class="line-e"> </span>
-        </div>
-        <p class="ci">Contacts Info</p>
-        <div class="ci-list">
-          <ul class="lc-ci">
-            <li>
-              <span><i class='bx bxs-phone' id="phone-1"></i></span>
-              <div class="ci-text">
-                <p class="ci-t">Call Us</p>
-                <p class="ci-st">(757) 927-7383</p>
-              </div>
-            </li>
-            <li>
-               <span><i class='bx bxs-envelope' id="evelope-1"></i></span>
-               <div class="ci-text">
-                <p class="ci-t">Mail Us</p>
-                <p class="ci-st">hophampton@gmail.com</p>
-               </div>
-            </li>
-            <li>
-              <span><i class='bx bxs-map' id="map-1"></i></span>
-              <div class="ci-text">
-                <p class="ci-t">Visit Us</p>
-                <p class="ci-st">1401 North King Street, Hampton VA 23669, USA</p>
-              </div>
-            </li>
-          </ul>
-        </div>
+
+    <div class="church-calendar">
+      <div class="cc-title">
+        <p>OUR CALENDAR</p>
       </div>
-      <div class="cu-user">
-        <form action="https://formsubmit.co/hophampton@gmail.com" method="POST"> 
-          <label for="fullName"> 
-              <i class="fa fa-solid fa-user" 
-                 style="margin: 2px;"> 
-              </i> Name 
-          </label> 
-          <input type="text" 
-                 id="fullName" 
-                 name="fullName" required placeholder="Full Name"> 
-
-          <label for="email"> 
-              <i class="fa fa-solid fa-envelope" 
-                 style="margin: 2px;"> 
-              </i> 
-              Email 
-
-          </label> 
-          <input type="email"
-                 id="email" 
-                 name="email" required placeholder="Email Address"> 
-
-          <label for="mobile"> 
-              <i class=" fa fa-solid fa-phone" 
-                 style="margin: 2px;"> 
-              </i> 
-              Phone
-          </label> 
-          <input type="tel"
-                 id="mobile" 
-                 name="mobile" required placeholder="Phone Number"> 
-
-          <label for="msg"> 
-              <i class=" fa fa-solid fa-envelope" 
-                 style="margin: 2px;"> 
-              </i>Message</label> 
-          <textarea name="msg" required placeholder="Enter Message" rows="4"></textarea> 
-          <button class="submit-1" type="submit"> 
-              Submit 
-          </button> 
-      </form> 
-      </div>
+      <iframe class="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&bgcolor=%234285F4&mode=MONTH&title=Church%20calendar&showCalendars=0&showPrint=0&showNav=0&showTitle=0&src=b2x1d2FzZXlpYWRlcG9qdTJAZ21haWwuY29t&color=%23F6BF26" 
+      style="border-width:0" width="100%" 
+      height="500px" frameborder="4" 
+      scrolling="no">
+    </iframe>
     </div>
-
-    <div class="map-div"> 
-      <iframe class="maps-nee" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d588420.2587269542!2d-76.67926791529374!3d37.07957556043608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ba848999abb067%3A0xbd09a43746786def!2s1401%20N%20King%20St%2C%20Hampton%2C%20VA%2023669!5e0!3m2!1sen!2sus!4v1709945240873!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-
+    
     <div class="end-section">
       <div class="our-ministries">
         <p class="min-header">MINISTRIES</p>
